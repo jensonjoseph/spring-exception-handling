@@ -1,0 +1,39 @@
+{
+  "info": {
+    "_postman_id": "4e7c2544-5c6f-4a96-b690-ed22de537833",
+    "name": "local",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "http://localhost:8080/users/Jenson/posts",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"owner\":{\n        \"name\":\"Jenson\",\n        \"address\" : \"Canton\"\n    },\n    \"id\":2,\n    \"content\": \"Test\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/users/Jenson/posts",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "users",
+            "Jenson",
+            "posts"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
